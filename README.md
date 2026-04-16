@@ -26,6 +26,10 @@ The core behavior is always the same:
 - Python 3.9+
 - Claude CLI installed and available in your `PATH`
 
+> Depending on your system and how Python was installed, you may need to
+> replace `python` with `python3` (or another local alias) in all commands
+> below.
+
 ### Installing Claude CLI
 
 Claude CLI is the [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
