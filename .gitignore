@@ -1,0 +1,41 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python packaging artifacts
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.venv/
+claude_morning_mfdv.venv/
+
+# Logs and local runtime output
+*.log
+reveille.log
+wakeup.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local Python/tooling metadata
+.python-version
+
+# Claude Code local instructions
+CLAUDE.md

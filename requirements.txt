@@ -1,0 +1,2 @@
+# No external dependencies — standard library only.
+# Requires: Python 3.9+
