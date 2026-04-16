@@ -278,6 +278,22 @@ Double-click `Claude Wakeup macOS.command` in Finder to launch the browser GUI.
 If macOS blocks the file the first time, you may need to allow it in
 `System Settings > Privacy & Security`, or launch it once from Terminal.
 
+**If you get a "permission denied" or "access privileges" error** (common after
+syncing via ownCloud, Dropbox, or similar tools that strip the execute bit),
+run the setup script once to restore the execute permission:
+
+1. Open a Terminal
+2. Navigate to the project folder, for example:
+   ```bash
+   cd ~/ownCloud/PostDoc/Claude/claude-wakeup
+   ```
+3. Run:
+   ```bash
+   bash setup.sh
+   ```
+
+After that, double-click works as normal.
+
 ### Windows Launcher
 
 Double-click `Claude Wakeup Windows.bat` in File Explorer to launch the browser GUI.
