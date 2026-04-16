@@ -285,7 +285,7 @@ run the setup script once to restore the execute permission:
 1. Open a Terminal
 2. Navigate to the project folder, for example:
    ```bash
-   cd ~/ownCloud/PostDoc/Claude/claude-wakeup
+   cd .../claude-wakeup
    ```
 3. Run:
    ```bash
