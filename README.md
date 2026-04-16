@@ -1,5 +1,14 @@
 # claude-wakeup
 
+Claude CLI usage is allocated in 5-hour windows: once you send your first
+prompt of the day, the clock starts. If that first prompt lands at 9 AM, your
+window closes at 2 PM. Send it at 6 AM instead, and you have until 11 AM —
+a much more useful working block for most people.
+
+claude-wakeup automates this. You schedule a wake-up time the night before,
+and the script sends the opening prompt for you at exactly the right moment,
+so your window is already running when you sit down to work.
+
 Schedule a morning wake-up call for Claude CLI from the command line, a
 lightweight browser GUI, or platform-specific click-to-run launchers.
 
