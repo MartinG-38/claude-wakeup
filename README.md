@@ -183,6 +183,15 @@ countdown screen.
   <img src="assets/screenshots/gui-waiting-screen.png" alt="Waiting screen" width="420">
 </p>
 
+#### Success Screen
+
+When the wake-up succeeds, the app shows Claude's response, the wake-up time,
+and the end of the 5-hour window.
+
+<p align="center">
+  <img src="assets/screenshots/gui-success-screen.png" alt="Success screen" width="420">
+</p>
+
 #### Error Screen
 
 If Claude CLI fails, the app displays an error screen. This includes common
@@ -199,15 +208,6 @@ stopped and the tab can be closed.
 
 <p align="center">
   <img src="assets/screenshots/gui-goodbye-screen.png" alt="Goodbye screen" width="420">
-</p>
-
-#### Success Screen
-
-When the wake-up succeeds, the app shows Claude's response, the wake-up time,
-and the end of the 5-hour window.
-
-<p align="center">
-  <img src="assets/screenshots/gui-success-screen.png" alt="Success screen" width="420">
 </p>
 
 ### How The Interface Works
