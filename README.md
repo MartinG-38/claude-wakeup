@@ -170,35 +170,45 @@ When started, the script:
 This is the screen you see when the app opens. You choose the wake-up time
 and start the schedule from here.
 
-![Main screen](assets/screenshots/gui-main-screen.png)
+<p align="center">
+  <img src="assets/screenshots/gui-main-screen.png" alt="Main screen" width="420">
+</p>
 
 #### Waiting Screen
 
 Once a wake-up time has been scheduled, the interface switches to a live
 countdown screen.
 
-![Waiting screen](assets/screenshots/gui-waiting-screen.png)
+<p align="center">
+  <img src="assets/screenshots/gui-waiting-screen.png" alt="Waiting screen" width="420">
+</p>
 
 #### Error Screen
 
 If Claude CLI fails, the app displays an error screen. This includes common
 CLI failures and request-limit or quota-related errors.
 
-![Error screen](assets/screenshots/gui-error-screen.png)
+<p align="center">
+  <img src="assets/screenshots/gui-error-screen.png" alt="Error screen" width="420">
+</p>
 
 #### Goodbye Screen
 
 When you quit from the browser, the app confirms that the local server has
 stopped and the tab can be closed.
 
-![Goodbye screen](assets/screenshots/gui-goodbye-screen.png)
+<p align="center">
+  <img src="assets/screenshots/gui-goodbye-screen.png" alt="Goodbye screen" width="420">
+</p>
 
 #### Success Screen
 
 When the wake-up succeeds, the app shows Claude's response, the wake-up time,
 and the end of the 5-hour window.
 
-![Success screen](assets/screenshots/gui-success-screen.png)
+<p align="center">
+  <img src="assets/screenshots/gui-success-screen.png" alt="Success screen" width="420">
+</p>
 
 ### How The Interface Works
 
