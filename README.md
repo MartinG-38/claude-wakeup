@@ -45,11 +45,49 @@ The core behavior is always the same:
 
 ### Installing Claude CLI
 
-Claude CLI is the [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
-command-line tool by Anthropic. Install it with npm:
+Claude CLI is the [Claude Code](https://code.claude.com/docs/en/quickstart)
+command-line tool by Anthropic.
+
+Anthropic now recommends the native installer.
+
+#### macOS
 
 ```bash
-# macOS / Linux / Windows (WSL)
+# Recommended native install
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Alternative with Homebrew:
+
+```bash
+brew install --cask claude-code
+```
+
+#### Windows
+
+PowerShell:
+
+```powershell
+irm https://claude.ai/install.ps1 | iex
+```
+
+Command Prompt (`cmd`):
+
+```bat
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
+
+Alternative with WinGet:
+
+```powershell
+winget install Anthropic.ClaudeCode
+```
+
+#### Alternative: npm install
+
+If you prefer npm, Claude Code can also be installed this way:
+
+```bash
 npm install -g @anthropic-ai/claude-code
 ```
 
@@ -57,10 +95,11 @@ After installation, verify it works:
 
 ```bash
 claude --version
+claude doctor
 ```
 
 Full installation guide and troubleshooting:
-[docs.anthropic.com/en/docs/claude-code](https://docs.anthropic.com/en/docs/claude-code)
+[code.claude.com/docs/en/setup](https://code.claude.com/docs/en/setup)
 
 ## Installation
 
