@@ -1,5 +1,9 @@
 # claude-wakeup
 
+<p align="center">
+  <img src="assets/logo/logo_claude_wakeup.png" alt="claude-wakeup logo" width="200">
+</p>
+
 Claude CLI usage is allocated in 5-hour windows: once you send your first
 prompt of the day, the clock starts. If that first prompt lands at 9 AM, your
 window closes at 2 PM. Send it at 6 AM instead, and you have until 11 AM —
@@ -313,6 +317,12 @@ Double-click `Claude Wakeup Windows.bat` in File Explorer to launch the browser 
 
 If Python is not found, the window stays open so the user can read the error
 message.
+
+## Disclaimer
+
+This project is an independent, community-made tool and is not affiliated with,
+endorsed by, or officially associated with Anthropic or Claude in any way.
+Claude and Claude CLI are products of [Anthropic](https://www.anthropic.com).
 
 ## License
 
